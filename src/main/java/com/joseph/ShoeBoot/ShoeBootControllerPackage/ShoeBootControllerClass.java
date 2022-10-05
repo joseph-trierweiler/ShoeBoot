@@ -11,4 +11,9 @@ public class ShoeBootControllerClass {
 	public String hello() {
 		return "Hello";
 	}
+	
+	@RequestMapping("sayHello")
+	public String helloJSP() {
+		return "sayHello";
+	}
 }
